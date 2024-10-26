@@ -1,0 +1,164 @@
+/* Reset basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #e3f2fd; /* Light blue background */
+}
+
+/* Header Styling */
+header {
+    background-color: #4caf50; /* Green from header */
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+nav ul li a:hover {
+    color: #ffcc80; /* Light orange on hover */
+}
+
+/* Hero Section Styling */
+.hero {
+    background-color: #e0f7fa; /* Light blue background for hero */
+    color: #333;
+    padding: 3rem;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.service {
+    background: #fff; /* White for service blocks */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+.service h3 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.service a {
+    color: #4caf50; /* Green for links */
+    text-decoration: none;
+}
+
+.service a:hover {
+    color: #388e3c; /* Darker green on hover */
+}
+
+/* Image Styling for Pages */
+.product-page img, .healthcare-page img, .daycare-page img, .blood-page img {
+    width: 25%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.product-page img:hover, .healthcare-page img:hover, .daycare-page img:hover, .blood-page img:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section Styling */
+.contact-section {
+    background-color: #4caf50; /* Green background for contact section */
+    color: #fff;
+    padding: 3rem;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.contact-info a {
+    color: #ffcc80; /* Light orange for email link */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2e7d32; /* Dark green for footer */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #ffcc80; /* Light orange for footer links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
