@@ -1,4 +1,4 @@
 # PetCareHub
 your pet our service.
-A Pet_Care Platform 
+A  user friendly Pet_Care Platform 
 
