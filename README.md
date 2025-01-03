@@ -1,3 +1,3 @@
 # PetCareHub
-your pet our service
+your pet our service.
 
